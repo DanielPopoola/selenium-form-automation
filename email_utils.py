@@ -83,11 +83,11 @@ Best regards,
         else:
             return False, f"Resume not found at {resume_path}"
         
-        server = smtplib.SMTP('smpt.gmail.com', 587)
+        server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
         server.login(email_address, email_password)
 
-        _ = ["iamuchihadaniel236@gmail.com", "iamuchihadaniel236@gmail.com"]
+        recipients = ["iamuchihadaniel236@gmail.com", "iamuchihadaniel236@gmail.com"]
         server.send_message(msg)
         server.quit()
 

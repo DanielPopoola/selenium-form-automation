@@ -9,7 +9,7 @@ app = Flask(__name__)
 def trigger_email():
     success, message =  send_assignment_email(
         sender_name="Daniel Popoola",
-        github_repo_url="https://github.com/yourusername/selenium-form-automation",
+        github_repo_url="https://github.com/DanielPopoola/selenium-form-automation",
         approach_summary=(
             "Used Selenium WebDriver to automate Google Form submission. "
             "Implemented explicit waits for dynamic elements, handled date fields "
