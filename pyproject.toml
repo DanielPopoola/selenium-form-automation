@@ -1,0 +1,12 @@
+[project]
+name = "google-form-submission"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "email",
+    "flask>=3.1.2",
+    "python-dotenv>=1.1.1",
+    "selenium>=4.37.0",
+]
