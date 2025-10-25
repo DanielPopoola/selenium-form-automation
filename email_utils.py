@@ -40,8 +40,8 @@ def send_assignment_email(
         
         msg = MIMEMultipart()
         msg['From'] = email_address
-        msg['To'] = "iamuchihadaniel236@gmail.com"
-        msg['Cc'] = "iamuchihadaniel236@gmail.com"
+        msg['To'] = "tech@themedius.ai"
+        msg['Cc'] = "hr@themedius.ai"
         msg['Subject'] = f"Python (Selenium) Assignment - {sender_name}"
 
         if isinstance(past_projects_links, list):
